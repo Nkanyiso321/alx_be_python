@@ -12,9 +12,9 @@ def main():
     while True:
         display_menu()
         try:
-            choice = int(input("Enter your choice: ").strip())
+            choice = int(input("Enter your choice: "))
         except ValueError:
-            print("Invalid input. Please enter a number between 1 and 4.")
+            print("Invalid choice. Please enter a number between 1 and 4.")
             continue
 
         if choice == 1:
